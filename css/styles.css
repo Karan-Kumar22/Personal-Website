@@ -1,0 +1,149 @@
+/* elements */
+a {
+    color:black;  
+}
+
+body{
+    font-family: "Montserrat" ;
+}
+
+
+/* Classes */
+.colored-section{
+    background-color: #6991ca;
+    padding: 1% 7% 3% 7%;
+    text-align: left;
+    color:white;
+}
+
+.contact-me-section {
+    text-align: center;
+    font-family: "ubuntu";
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.non-colored-section {
+    padding: 1% 7% 3% 7%;
+    color:black;
+}
+
+.greeting {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.hello-greeting {
+    font-size: 4rem;
+    padding: 0;
+}
+
+.hobby-icon {
+    font-size: 2rem;
+}
+
+.hobby-title {
+    font-size: 2rem;   
+}
+
+.icon {
+    margin: 1px 1px 1px 1px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    padding-left: 0 30px;
+    font-family: "ubuntu";
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color:  white;
+}
+
+.nav-link:hover {
+    color: rgb(6, 6, 6);
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.4rem;
+    font-weight: bold;
+    color:white;
+}
+
+.navbar-brand:hover {
+    color:#070808;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width : 100%;
+    max-width: 300px;
+}
+
+.pub-link {
+    text-decoration: none; 
+    color: white;
+}
+
+.skill-heading{
+    padding-left: 0;
+}
+
+.section-heading{
+    text-align: center;
+    font-family: "ubuntu";
+    font-size: 3rem;
+}
+
+.social-icon {
+    padding:2% 2% 0 2%;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width : 100%;
+    max-width: 400px;
+}
+
+/* animation */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #f3f5f5;
+  }
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #070808;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/* Id */
+#contact-me{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#hobbies {
+    text-align: center;
+    
+}
